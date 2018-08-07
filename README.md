@@ -1,10 +1,10 @@
 ---
-services: Network
-platforms: .Net
+services: virtual-network
+platforms: dotnet
 author: lenala
 ---
 
-# Getting Started with Network - Manage Express Route - in .Net #
+# Create and configure Express Route circuit #
 
          Azure Network sample for managing express route circuits.
            - Create Express Route circuit
@@ -19,7 +19,7 @@ author: lenala
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/network-dotnet-manage-express-route.git
 
