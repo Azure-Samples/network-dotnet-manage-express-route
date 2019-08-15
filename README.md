@@ -4,20 +4,20 @@ languages:
 - csharp
 products:
 - azure
-services: virtual-network
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: virtual-network
+- platforms: dotnet
 ---
 
 # Create and configure Express Route circuit #
 
-         Azure Network sample for managing express route circuits.
-           - Create Express Route circuit
-           - Create Express Route circuit peering. Please note: express route circuit should be provisioned by connectivity provider before this step.
-           - Adding authorization to express route circuit
-           - Create virtual network to be associated with virtual network gateway
-           - Create virtual network gateway
-           - Create virtual network gateway connection
+ Azure Network sample for managing express route circuits.
+  - Create Express Route circuit
+  - Create Express Route circuit peering. Please note: express route circuit should be provisioned by connectivity provider before this step.
+  - Adding authorization to express route circuit
+  - Create virtual network to be associated with virtual network gateway
+  - Create virtual network gateway
+  - Create virtual network gateway connection
 
 
 ## Running this Sample ##
