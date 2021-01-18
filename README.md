@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: virtual-network
-- platforms: dotnet
+  services: virtual-network
+  platforms: dotnet
 ---
 
 # Create and configure Express Route circuit #
